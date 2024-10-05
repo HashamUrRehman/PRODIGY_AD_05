@@ -12,8 +12,6 @@ const WelcomeScreen = ({ navigation }) => {
       />
       <Text style={styles.title}>Welcome to the QR Scanner!</Text>
       <Text style={styles.subtitle}>Scan QR codes easily and quickly.</Text>
-
-      {/* Custom Button */}
       <TouchableOpacity
         style={styles.button}
         onPress={() => navigation.navigate('Home')}

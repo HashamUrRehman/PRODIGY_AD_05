@@ -7,8 +7,6 @@ const HomeScreen = ({ navigation }) => {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Home Screen</Text>
-
-      {/* Custom Button for Scanning */}
       <TouchableOpacity
         style={styles.button}
         onPress={() => navigation.navigate('Scanner')}
@@ -49,7 +47,7 @@ button: {
 },
 buttonText: {
   color: '#fff', 
-  fontSize: 20,
+  fontSize: 22,
   fontWeight: 'bold',
   textAlign: 'center',
 },
